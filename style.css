@@ -88,4 +88,13 @@ img {
 
   background-color: #69b99d;
   color: #f9f9f9;
+
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 8.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Open Sans";
 }
