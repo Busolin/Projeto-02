@@ -4,6 +4,43 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 100.5rem;
+  margin-inline: auto;
+}
+
+.header {
+  margin: 6.5rem auto 5.8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Mulish";
+  font-size: 1.8rem;
+}
+
+.header__menus {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.header__menus a {
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 50%;
+}
+
+.header__menus li:first-child a {
+  font-weight: bold;
+  opacity: 1;
 }
