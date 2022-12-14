@@ -44,3 +44,48 @@ img {
   font-weight: bold;
   opacity: 1;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.main__title {
+  font-family: "Mulish";
+  font-size: 4.9rem;
+  font-weight: 400;
+}
+
+.main__title span {
+  font-weight: 700;
+  color: #89c5cc;
+}
+
+.main__text {
+  font-size: 1.4rem;
+  font-family: "Open Sans";
+  color: #7d7987;
+}
+
+.main__button {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  align-self: flex-start;
+
+  padding: 1.6rem 3.2rem;
+  font-family: "DM Sans";
+
+  border: none;
+  border-radius: 0.4rem;
+
+  background-color: #69b99d;
+  color: #f9f9f9;
+}
