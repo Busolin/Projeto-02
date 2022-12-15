@@ -8,16 +8,30 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+}
+
 img {
   max-width: 100%;
 }
 
 .container {
   max-width: 100.5rem;
+  height: 100vh;
+
   margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.header {
+.nav {
   margin: 6.5rem auto 5.8rem;
 
   display: flex;
@@ -26,21 +40,23 @@ img {
 
   font-family: "Mulish";
   font-size: 1.8rem;
+
+  width: 100%;
 }
 
-.header__menus {
+.nav__menus {
   list-style: none;
   display: flex;
   gap: 4.8rem;
 }
 
-.header__menus a {
+.nav__menus a {
   text-decoration: none;
   color: #1f1534;
   opacity: 50%;
 }
 
-.header__menus li:first-child a {
+.nav__menus a:hover {
   font-weight: bold;
   opacity: 1;
 }
@@ -56,10 +72,12 @@ img {
   flex-direction: column;
   gap: 4rem;
 }
+
 .main__title {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-size: 4.9rem;
   font-weight: 400;
+  line-height: 5.6rem;
 }
 
 .main__title span {
@@ -69,7 +87,8 @@ img {
 
 .main__text {
   font-size: 1.4rem;
-  font-family: "Open Sans";
+  line-height: 2.8rem;
+  font-family: "Open Sans", sans-serif;
   color: #7d7987;
 }
 
@@ -80,8 +99,9 @@ img {
   align-items: center;
   align-self: flex-start;
 
-  padding: 1.6rem 3.2rem;
-  font-family: "DM Sans";
+  padding: 1.4rem 3.2rem 1.5rem;
+  font-size: 1.6rem;
+  font-family: "DM Sans", sans-serif;
 
   border: none;
   border-radius: 0.4rem;
@@ -94,10 +114,10 @@ img {
 }
 
 .footer {
-  margin-top: 8.2rem;
+  margin: 8.2rem 0 3rem;
   text-align: center;
   font-size: 1.4rem;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .balls {
